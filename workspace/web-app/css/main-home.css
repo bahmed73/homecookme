@@ -1,0 +1,400 @@
+/* start reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* end reset css */
+
+html {
+}
+body {
+	margin:0px;
+	background-color:#ffffff;
+	background-repeat:repeat-x;
+	font-family:arial,helvetica;
+}
+img {border:0px;}
+
+
+#header {
+	width:960px;
+	margin:0 auto;
+}
+
+#logo {
+	float:left;
+	margin:8 0 0 0;
+}
+
+#top-nav {
+	float:right;
+}
+
+#main {
+	width:960px;
+	margin:0 auto;	
+}
+
+#footer {
+	width:960px;
+	margin:0 auto;
+}
+
+#footer-tag {
+	width:350px;
+	float:left;
+	color:#61b0de;
+	font-size:12px;
+	font-weight:bold;
+	padding:25px 0 0 0;
+	margin-bottom:20px;
+}
+
+#footer-nav {
+	width:600px;
+	float:right;
+	text-align:right;
+	color:#61b0de;
+	font-weight:bold;
+	font-size:12px;
+	padding:25px 0 0 0;
+	margin-bottom:20px;
+}
+
+#nav-user {
+	color:#3198d3;
+	font-weight:bold;
+	padding-top:20px;
+	font-size:14px;
+}
+
+a.nav {
+	color:#3198d3;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#nav-login {
+	width:536px;
+	height:62px;
+	background-repeat:none;
+	margin:15 0 0 0;
+	padding:0 0 0 0;
+}
+
+#nav-login-inputs {
+	float:left;
+	width:350px;
+	padding:10 0 0 15;
+}
+
+#nav-login-button {
+	float:left;
+	width:100px;
+	padding:10 0 0 15;
+}
+
+.nav-input {
+	width:160px;
+	border:3px solid #c2e0f2;
+	color:#3198d3;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px;
+}
+
+#view-photo-main {
+	float:left;
+	width:620px;
+	text-align:left;
+	margin:0 0 0 0;
+}
+
+#photo {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#photo-controls {
+	width:610px;
+	text-align:right;
+}
+
+#view-photo-sidebar {
+	float:right;
+	width:310px;
+	text-align:left;
+}
+
+#view-photo-user {
+	margin:0 0 20 0;
+}
+
+#view-photo-caption {
+	text-align:left;
+	padding:7 0 0 7;
+}
+
+#photo-user-avatar {
+	float:left;
+	width:65px;
+}
+
+#photo-info {
+	float:left;
+	width:245px;
+	font-size:14px;
+	font-weight:bold;
+	color:#222425;
+}
+
+#view-photo-ad {
+	margin:0 0 0 0;
+}
+
+#view-photo-views {
+	margin:15 0 0 0;
+}
+
+#view-photo-tags {
+	margin:15 0 0 0;
+}
+
+#view-photo-more {
+	margin:15 0 0 0;
+}
+
+
+/* BEGIN COMMENT CSS */
+
+#photo-comments {
+	
+}
+
+#photo-comments-login {
+	background-color:#ffffff;
+	padding:8px;
+	margin-bottom:10px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#photo-comments-form {
+	padding:7px;
+	margin-bottom:10px;
+	background-color:#FFFFFF;
+}
+
+.photo-comment {
+	margin-bottom:7px;
+	clear:both;
+}
+
+.photo-comment-avatar {
+	width:65px;
+	float:left;
+}
+
+.photo-comment-body {
+	width:540px;
+	float:left;
+}
+
+.photo-comment-info {
+	font-size:14px;
+	padding-bottom:4px;
+}
+
+.photo-comment-date {
+	color:#555555;
+	font-size:12px;
+}
+
+.photo-comment-message {
+	background-color:#ffffff;
+	padding:10px;
+	font-size:14px;
+}
+
+/* END COMMENT CSS */
+
+
+#profile-main {
+	
+}
+
+#profile-header {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#profile-photos {
+	float:left;
+	width:600px;
+}
+
+#profile-info {
+	float:right;
+	width:300px;
+}
+
+#profile-about {
+	width:275px;
+	background-color:#cce9ff;
+	padding:10px;
+}
+
+#profile-photo {
+	background-color:#ffffff;
+	padding:10px;
+	margin:0 0 15 15;
+}
+
+#profile-avatar {
+	float:left;
+	width:90px;
+}
+
+#profile-username {
+	float:left;
+	width:400px;
+	font-size:24px;
+	padding-top:20px;
+}
+
+.profile-photo-info {
+	text-align:right;
+	font-size:12px;
+	padding:0 4 4 0;
+}
+
+.profile-photo-img {
+	float:left;
+	width:165px;
+}
+
+.profile-photo-message {
+	float:left;
+	width:400px;
+	font-size:14px;
+}
+
+
+.photo-large {
+	border: 10px solid #ffffff;
+}
+
+.photo-mini {
+	border: 6px solid #ffffff;
+}
+
+
+.avatar {
+	border:5px solid #cce9ff;
+}
+
+.form-label {
+	font-size:18px;
+	font-weight:bold;
+	color:#2e3132;
+	padding:0 0 10 0;
+}
+
+.form-hint {
+	font-size:12px;
+	font-weight:bold;
+	color:#61b0de;
+	padding:5 0 0 0;
+}
+
+.upload-input {
+	border:3px solid #c2e0f2;
+	color:#3198d3;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+}
+
+.error {
+	font-size:18px;
+	font-weight:bold;
+	color:#ff0000;
+	text-align:center;
+	padding:10 0 10 0;
+}
+
+#partner-ad {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#ffffff;
+	margin:0 auto;
+	margin-top:20px;
+	padding:8px;
+	width:200px;
+}
+
+#partner-ad-title {
+	font-size:11px;
+	font-weight:bold;
+	font-family:'Lucida Grande',sans-serif;
+	color:#3080CB;
+	text-decoration: none;
+}
+
+#partner-ad-desc {
+	font-family:'Lucida Grande',sans-serif;
+	font-size:11px;
+	padding-top:3px;
+	line-height:15px;
+}
+
+#partner-ad-tip {
+	color:#cccccc;
+	font-size:11px;
+	text-decoration: none;
+}
+
